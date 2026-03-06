@@ -1,0 +1,111 @@
+body{
+    background-color:lightblue;
+    font-family: Arial;
+    margin: 0;
+}
+
+nav{
+    background-color: navy;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+h1{
+    color: darkblue;
+    text-align: center;
+}
+p{
+    font-size: 18px;
+    line-height: 1.6;
+}
+nav a:hover{
+    color: yellow;
+}
+
+header{
+    text-align: center;
+    padding: 40px;
+    background-color: lightgray;
+}
+
+section{
+    padding: 30px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.projects-container{
+display: flex;
+justify-content: center;
+gap: 30px;
+flex-wrap: wrap;
+padding: 30px;
+}
+
+.project-card{
+background-color: white;
+padding: 15px;
+border-radius: 10px;
+width: 250px;
+text-align: center;
+box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.project-card img{
+width: 100%;
+border-radius: 8px;
+}
+
+.events-container{
+display: flex;
+justify-content: center;
+gap: 30px;
+flex-wrap: wrap;
+padding: 30px;
+}
+
+.event-card{
+background-color: white;
+padding: 20px;
+border-radius: 10px;
+width: 250px;
+box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.contact-container{
+background-color: white;
+padding: 30px;
+margin: 30px;
+border-radius: 10px;
+width: 60%;
+margin-left: auto;
+margin-right: auto;
+box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+input, textarea{
+width: 100%;
+padding: 8px;
+margin-top: 5px;
+}
+
+button{
+background-color: navy;
+color: white;
+padding: 10px 15px;
+border: none;
+cursor: pointer;
+}
+
+button:hover{
+background-color: darkblue;
+}
