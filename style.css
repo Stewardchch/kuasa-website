@@ -109,3 +109,33 @@ cursor: pointer;
 button:hover{
 background-color: darkblue;
 }
+
+.hero{
+    height: 400px;
+    background-image: url("images/space.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1{
+    font-size: 40px;
+}
+
+.hero p{
+    font-size: 20px;
+}
+
+.hero-button{
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
