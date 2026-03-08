@@ -198,3 +198,19 @@ background-color: darkblue;
     transform: scale(1.05);
 }
 
+footer{
+    background-color: #05070d;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer a{
+    color: #00bfff;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
