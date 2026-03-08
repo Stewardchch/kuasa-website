@@ -1,15 +1,16 @@
 body{
-    background-color:lightblue;
-    font-family: Arial;
+    background-color: #0b0f19;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 }
 
 nav{
-    background-color: navy;
+    background-color: #05070d;
     padding: 15px;
     display: flex;
     justify-content: center;
-    gap: 25px;
+    gap: 30px;
 }
 
 nav a{
@@ -17,6 +18,10 @@ nav a{
     text-decoration: none;
     font-weight: bold;
     font-size: 18px;
+}
+
+nav a:hover{
+    color: #00bfff;
 }
 h1{
     color: darkblue;
@@ -37,10 +42,16 @@ header{
 }
 
 section{
-    padding: 30px;
-    margin: 20px;
-    background-color: white;
-    border-radius: 8px;
+    padding: 40px;
+    margin: 30px auto;
+    width: 80%;
+    background-color: #11182b;
+    border-radius: 10px;
+    color: white;
+}
+
+p{
+    color: #d1d5db;
 }
 
 .projects-container{
@@ -52,7 +63,7 @@ padding: 30px;
 }
 
 .project-card{
-background-color: white;
+background-color: rgb(71, 4, 4);
 padding: 15px;
 border-radius: 10px;
 width: 250px;
@@ -74,7 +85,7 @@ padding: 30px;
 }
 
 .event-card{
-background-color: white;
+background-color: rgb(71, 4, 4);
 padding: 20px;
 border-radius: 10px;
 width: 250px;
@@ -82,14 +93,14 @@ box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
 .contact-container{
-background-color: white;
+background-color: rgb(71, 4, 4);
 padding: 30px;
 margin: 30px;
 border-radius: 10px;
 width: 60%;
 margin-left: auto;
 margin-right: auto;
-box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+box-shadow: 0 4px 8px rgba(8, 8, 8, 0.2);
 }
 
 input, textarea{
@@ -132,10 +143,15 @@ background-color: darkblue;
 }
 
 .hero-button{
-    margin-top: 15px;
-    padding: 10px 20px;
-    background-color: red;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #0077ff;
     color: white;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.hero-button:hover{
+    background-color: #00bfff;
 }
