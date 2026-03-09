@@ -138,6 +138,8 @@ background-color: darkblue;
     justify-content: center;
     align-items: center;
     text-align: center;
+    position:relative;
+    overflow:hidden;
 }
 
 .hero h1{
@@ -276,4 +278,27 @@ body::before{
     background-image: url("https://www.transparenttextures.com/patterns/stardust.png");
     opacity:0.4;
     z-index:-1;
+}
+.rocket{
+    position:absolute;
+    bottom:-100px;
+    right:10%;
+    width:80px;
+    animation: launch 6s infinite;
+}
+
+@keyframes launch{
+    0%{
+        transform:translateY(0);
+        opacity:1;
+    }
+
+    80%{
+        opacity:1;
+    }
+
+    100%{
+        transform:translateY(-600px);
+        opacity:0;
+    }
 }
