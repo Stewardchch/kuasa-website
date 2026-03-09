@@ -302,3 +302,19 @@ body::before{
         opacity:0;
     }
 }
+.logo{
+    height:45px;
+    margin-right:40px;
+}
+
+nav{
+    background-color:#0a0f1f;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:30px;
+    padding:15px;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
