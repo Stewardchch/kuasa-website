@@ -318,3 +318,39 @@ nav{
     top:0;
     z-index:1000;
 }
+
+.purpose-section{
+text-align:center;
+padding:60px 20px;
+}
+
+.purpose-card{
+display:flex;
+justify-content:space-between;
+background:#0c152b;
+color:#0a1125;
+border-radius:12px;
+padding:40px;
+margin:40px auto;
+width:85%;
+gap:30px;
+}
+
+.purpose-column{
+flex:1;
+}
+
+.purpose-column h3{
+color:#0077ff;
+margin-bottom:10px;
+}
+
+@media (max-width:768px){
+
+.purpose-card{
+flex-direction:column;
+text-align:center;
+}
+
+}
+
